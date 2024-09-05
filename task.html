@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+     
+     .n1{
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 100px;
+        position: fixed;
+        background: transparent;
+        border: 2px solid rgb(24, 23, 21);
+        backdrop-filter: blur(20px);
+                
+        
+     }
+     #home {
+    /* font-size: 40px; */
+    width: 70%;
+    height: 170px;
+    color: #edf1f7;
+    margin: 0px;
+    padding:  200px 200px  700px 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #home p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1px;
+    color: #ffffff;
+  }
+  #home h1{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px ;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: #eee9e9;
+  }
+     .logo{
+        font-size: 30px;
+        font-weight: bold;
+        
+        float: left;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+     }
+     .links{
+        float: right;
+     }
+     nav li{
+        display: inline-block;
+        list-style: none;
+     }
+     
+     
+     nav li a h4{
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0px 30px;
+        color: rgb(243, 240, 235);
+        text-decoration: none;
+     }
+     a{
+      text-decoration: none;
+     }
+     nav li a h4:hover{
+        color: rgb(243, 127, 18);
+        transition-property: all 0.4s ease 0s;
+     }
+     .content{
+      color: white;
+      margin:100px;
+      
+      text-align: left;
+      text-indent: 10px;
+      
+     }
+
+     body{
+        background-image: url(img/2.jpg);
+        background-size:cover;
+      background-attachment: fixed;
+     }
+     #about {
+        float: left;
+				width: 50%;
+            padding-top: 15%;
+				background-repeat: no-repeat;
+        
+  }
+  #image img {
+    padding-top: 70px;
+  
+  }
+  /*#ab1{
+            width: 100%;
+            background-image: url(img/nature.avif);
+            background-size: cover;
+				background-repeat: no-repeat;
+}*/
+
+  
+  /* #about .primary {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #3056d3;
+    display: inline;
+
+  } */
+
+  #about h3{
+
+    /* background-color: #3056d3; */
+    color: #edf0f8;
+    font-size: x-large;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  #about h1{
+    padding-left: 40px;
+    color: aliceblue;
+    height: 15px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px ;
+    font-size: 50px;
+    
+    color: #eee9e9;
+    
+  }
+
+  #about p{
+    padding-left: 40px;
+    padding-top: 100px;
+    height: 0px;
+    padding-right:10px ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: aliceblue;
+
+    
+    /* border: 2px solid red; */
+  }
+  .container3{
+    padding-top: 1000px ;
+    height: 600px;
+    padding-bottom: 700px;
+
+  }
+  .container3 h3{
+    text-align: center;
+    padding-top:150px;
+    font-size: 20px;
+    color: #d3d7e2;
+  }
+  .container3 h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px ;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: #eee9e9;
+  }
+
+   .container3 p{
+    text-align: center;
+    color: rgb(242, 245, 244);
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif ;
+  }
+
+     
+    </style>
+</head>
+<body>
+    <nav class="n1">
+    <div class="logo"><h3>WD</h3></div>
+   
+                <ul class="links">
+                    <li><a href="#home"><h4>⌂HOME</h4></a></li>
+                    <li><a href="#about"><h4>✉About</h4></a></li>
+                    <li><a href="#Importance"><h4>➧Importance</h4></a></li>
+                    <li><a href=""><h4>✆Contact Us</h4></a></li>
+                </ul>
+               
+               
+    </nav> 
+
+    <section id="home">
+      <h1 class="h.primary">Web Development</h1>
+      <p>Build the Websites by using a variety of code languages</p><p>with your skill.</p>
+    </section>
+    
+    <div class="container" id="ab1">
+      <div id="about" class="item">
+        <h3>About </h3>
+        <h1>What is Web Development?</h1>
+
+      <p>Web Development refers to the creating,building,and maintaining of websites. it includes aspects such as a web desing web publishing,web programming and database management.it is the creation of an application that works over the internet that is websites.</p>
+        <p>Web developers create functional,user friendly websites and web applications.they may write code,develop and test new applications or monitor site performance and traffic. Front-end developers focus on the userfacing side of thier work,while Back-end developers make websites functional and secure.</p>
+        <p id="firstpara" class="para"></p>
+      </div>
+      		
+    </div>
+    <div class="container3">
+      <div id="Importance">
+        <h3>Importance</h3>
+        <h1>Importance of web Development</h1>
+        <p>To become a Web developer,you should have an understanding of HTML,CSS and Javascript.</p> <p>Web Development is Machine Learning, Data Science, and more.</p> <p> Web development is a critical part of bringing business ideas to life.in this 21st century,a solid web presence is essential for any business</p><p> Web development can range from developing a simple single static page</p><p>of plain text to complex web applications.</p> 
+        
+      </div>
+    </div>
+</body>
+</html> 
